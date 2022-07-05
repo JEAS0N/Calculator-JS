@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "index.js"></script>
+</head>
+<body>
+    <div class="container">
+		<div class="expression">
+        	<input type = "text" id="expression" class="output"  readonly>
+		</div>
+		<div class="buttons">
+			<div class="num">
+                <input type="button" value="1" class="numbut" onclick="first()">
+                <input type="button" value="2" class="numbut" onclick="second()">
+                <input type="button" value="3" class="numbut" onclick="third()">
+                <input type="button" value="4" class="numbut" onclick="fourth()">
+                <input type="button" value="5" class="numbut" onclick="fiveth()">
+                <input type="button" value="6" class="numbut" onclick="sixth()">
+                <input type="button" value="7" class="numbut" onclick="seventh()">
+                <input type="button" value="8" class="numbut" onclick="eightn()">
+                <input type="button" value="9" class="numbut" onclick="nineth()">
+                <input type="button" value="0" class="numbut" onclick="zero()">
+        	</div>
+        	<div class="func">
+                <input type="button" onclick="sum()" value="+" class="button">
+                <input type="button" onclick="dif()" value="-" class="button">
+                <input type="button" onclick="prod()" value="*" class="button">
+                <input type="button" onclick="del()" value="/" class="button">
+                <input type="button" onclick="rez()" value="=" class="button">
+        	</div>
+		</div>
+    </div>
+</body>
+</html>
