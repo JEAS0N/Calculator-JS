@@ -12,6 +12,13 @@
         	<input type = "text" id="expression" class="output"  readonly>
 		</div>
 		<div class="buttons">
+      <div class="func">
+        <input type="button" onclick="fact()" value="!" class="button" id="fact">
+        <input type="button" onclick="percent()" value="%" class="button" id="percent">
+        <input type="button" onclick="degree()" value="^" class="button" id="degree">
+        <input type="button" onclick="sqr()" value="√" class="button" id="sqr">
+        <input type="button" onclick="reset()" value="RESET" class="button" id="reset">
+      </div>
 			<div class="num">
                 <input type="button" value="1" class="numbut" onclick="first()">
                 <input type="button" value="2" class="numbut" onclick="second()">
@@ -25,11 +32,11 @@
                 <input type="button" value="0" class="numbut" onclick="zero()">
         	</div>
         	<div class="func">
-                <input type="button" onclick="sum()" value="+" class="button">
-                <input type="button" onclick="dif()" value="-" class="button">
-                <input type="button" onclick="prod()" value="*" class="button">
-                <input type="button" onclick="del()" value="/" class="button">
-                <input type="button" onclick="rez()" value="=" class="button">
+                <input type="button" onclick="sum()" value="+" class="button" id="plus">
+                <input type="button" onclick="dif()" value="-" class="button" id="minus">
+                <input type="button" onclick="prod()" value="*" class="button" id="mult">
+                <input type="button" onclick="del()" value="/" class="button" id="division">
+                <input type="button" onclick="rez()" value="=" class="button" id="equals">
         	</div>
 		</div>
     </div>

@@ -9,11 +9,11 @@ body{
     justify-content: center;
 }
 .container{
-    width: 300px;
+    width: 400px;
     height: 400px;
-    background-color: grey;
+    background-color: #808080;
     border: 2px;
-    border-color: black;
+    border-color: #000000;
     border-style:solid ;
     border-radius: 10px; 
 }
@@ -26,7 +26,7 @@ body{
     border-radius: 10px;
     height: 100%;
     border: 2px;
-    border-color: black;
+    border-color: #000000;
     border-style: solid;
     font-size: 20px;
 }
@@ -37,24 +37,24 @@ body{
     height: 88%;
 }
 .num{
-    width: 75%;
+    width: 60%;
     height: 100%;
 }
 .numbut{
     width: 49%;
     border: 1px;
     border-radius: 10px;
-    border-color: black;
+    border-color: #000000;
     border-style: solid;
     height: 20%;
-    background-color:seashell;
+    background-color:#fff5ee;
     font-size: 20px;
 }
 .numbut:hover{
-    background-color: gray  ;
+    background-color: #808080  ;
 }
 .func{
-    width: 25%;
+    width: 20%;
     height: 100%;
 }
 .button{
@@ -62,12 +62,13 @@ body{
     border-radius: 10px;
     border-color: black;
     border-style: solid;
-    background-color: darkturquoise;
+    background-color: #00ced1;
     color: black;
     width: 100%;
     height: 20%;
     font-size: 20px;
 }
 .button:hover{
-    background-color: gray;
+    background-color: #808080;
+    color: #fff5ee;
 }
